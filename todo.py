@@ -15,16 +15,5 @@ def addTodo():
     todoList.append(todoItem)
     return render_template('home.html', todoList=todoList)
 
-
 if __name__ == "__main__":
     app.run(debug=True)
-
-
-
-
-
-
-
-#GET, PUT, POST, DELETE
-#GET and DELETE
-#CRUD CREATE, RETRIEVE, UPDATE, DELETE
